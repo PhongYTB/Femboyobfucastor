@@ -1,0 +1,19 @@
+{
+  "name": "femboyobfucastor",
+  "version": "4.0.0",
+  "description": "FemboyObfucator ULTRA v4.0 - Advanced Lua obfuscator",
+  "main": "api/obfuscate.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "busboy": "^1.6.0"
+  },
+  "devDependencies": {
+    "vercel": "^28.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
