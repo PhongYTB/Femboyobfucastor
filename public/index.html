@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FemboyObfucator ULTRA 🍑🐧</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+    <div class="container">
+        <!-- Header nhỏ gọn -->
+        <header class="header">
+            <div class="logo">
+                <span class="icon">🍑🐧</span>
+                <h1>FemboyObfucator</h1>
+                <span class="version">ULTRA v4.0</span>
+            </div>
+            <div class="status" id="status-indicator">
+                <span class="dot"></span>
+                <span>Ready</span>
+            </div>
+        </header>
+
+        <!-- Khu vực chính -->
+        <main class="main-content">
+            <!-- Upload Zone -->
+            <div class="upload-zone" id="upload-zone">
+                <div class="upload-icon">
+                    <i class="fas fa-file-code"></i>
+                </div>
+                <h2>Upload Lua File</h2>
+                <p class="file-info">Max 100MB • Roblox compatible</p>
+                
+                <input type="file" id="file-input" accept=".lua,.txt">
+                <label for="file-input" class="upload-btn">
+                    <i class="fas fa-cloud-upload-alt"></i>
+                    Choose File
+                </label>
+                
+                <div class="file-preview" id="file-preview">
+                    <p>No file selected</p>
+                </div>
+            </div>
+
+            <!-- Button -->
+            <div class="action-section">
+                <button id="obfuscate-btn" class="obfuscate-btn" disabled>
+                    <i class="fas fa-shield-alt"></i>
+                    OBFUCATOR
+                </button>
+                
+                <div class="info-badge">
+                    <i class="fas fa-info-circle"></i>
+                    <span>24-layer encryption • 18 anti-tamper</span>
+                </div>
+            </div>
+
+            <!-- Download Section (hidden until ready) -->
+            <div class="download-section" id="download-section" style="display: none;">
+                <div class="download-card">
+                    <div class="download-icon">
+                        <i class="fas fa-download"></i>
+                    </div>
+                    <h3>File Obfuscated Successfully!</h3>
+                    <p class="file-meta" id="file-meta">Ready for Roblox</p>
+                    
+                    <a id="download-link" class="download-btn">
+                        <i class="fas fa-file-download"></i>
+                        Download Secure File
+                    </a>
+                    
+                    <div class="security-info">
+                        <div class="security-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Binary encryption applied</span>
+                        </div>
+                        <div class="security-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Tamper protection active</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Processing Animation -->
+            <div class="processing" id="processing" style="display: none;">
+                <div class="spinner"></div>
+                <h3>Applying FemboyObfucation...</h3>
+                <div class="progress-steps">
+                    <div class="step active">Uploading</div>
+                    <div class="step">Encrypting (24 layers)</div>
+                    <div class="step">Tamper Protection</div>
+                    <div class="step">Binary Conversion</div>
+                    <div class="step">Finalizing</div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer nhỏ -->
+        <footer class="footer">
+            <div class="watermark">
+                OBFUCATOR BY FEMBOYOBFUCATOR v4.0 [ULTRA]
+            </div>
+            <div class="website">
+                femboyobfucastor.vercel.app 🍑🐧
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+  </html>
