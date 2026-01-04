@@ -1,0 +1,19 @@
+{
+  "functions": {
+    "api/obfuscate.js": {
+      "maxDuration": 60,
+      "memory": 1024
+    }
+  },
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-FemboyObfucator",
+          "value": "ULTRA v4.0 🍑🐧"
+        }
+      ]
+    }
+  ]
+}
